@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./Footer.module.css";
 import footerPattern from "../img/bg-pattern-footer-mobile.svg";
 import Logo from "../img/logo.svg";
 import fbIcon from "../img/icon-facebook.svg";
@@ -32,9 +33,13 @@ const socialLinks = [
 const Footer = () => {
   return (
     <footer>
-      <img src={footerPattern} alt="Decorative Texture" />
-      <div>
-        <img src={Logo} alt="Insure Logo" />
+      <img
+        className={classes["footer-pattern"]}
+        src={footerPattern}
+        alt="Decorative Texture"
+      />
+      <div className={classes["footer-head"]}>
+        <img className={classes["footer-logo"]} src={Logo} alt="Insure Logo" />
         <ul>
           {socialLinks.map((socialLink) => {
             return (
@@ -46,8 +51,9 @@ const Footer = () => {
             );
           })}
         </ul>
+        <span className={classes.line}></span>
       </div>
-      <div>
+      <div className={classes["footer-nav"]}>
         <ul>
           <h4>OUR COMPANY</h4>
           <li>HOW WE WORK</li>

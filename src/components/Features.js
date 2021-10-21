@@ -1,7 +1,9 @@
 import React from "react";
+import classes from "./Features.module.css";
 import snappyIcon from "../img/icon-snappy-process.svg";
 import affordIcon from "../img/icon-affordable-prices.svg";
 import peopleIcon from "../img/icon-people-first.svg";
+import CTA from "./CTA";
 
 const benefits = [
   {
@@ -29,8 +31,8 @@ const benefits = [
 
 const Features = () => {
   return (
-    <section>
-      <span>There's going to be a line here</span>
+    <section className={`${classes.features} ${"container"}`}>
+      <span className={classes.line}></span>
       <h2>We're different</h2>
       <ul>
         {benefits.map((benefit) => {
@@ -43,6 +45,7 @@ const Features = () => {
           );
         })}
       </ul>
+      <CTA />
     </section>
   );
 };

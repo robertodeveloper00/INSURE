@@ -1,0 +1,31 @@
+.line {
+  border-top: 1px solid var(--color-secondary);
+  display: block;
+  width: 40%;
+  margin-bottom: -25px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.features li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.features li h3 {
+  font-size: 1.7rem;
+}
+
+.features li p {
+  font-size: 1rem;
+  color: var(--color-secondary-dark);
+}

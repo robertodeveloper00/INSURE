@@ -1,0 +1,28 @@
+.cta {
+  background-color: var(--color-primary);
+  position: relative;
+  color: var(--color-neutral-light);
+}
+
+.cta div {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 4rem 1rem;
+}
+
+.cta h2 {
+  z-index: 20;
+  font-size: 2.4rem;
+}
+
+.cta img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 160px;
+}
+
+.cta Button {
+  font-size: 0.8rem;
+}
