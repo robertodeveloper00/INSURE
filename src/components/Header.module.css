@@ -1,0 +1,47 @@
+header {
+  position: relative;
+}
+
+header img {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  padding: 7rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  z-index: 20;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+.hero button {
+  z-index: 20;
+}
+
+.header__img-container {
+  position: relative;
+}
+
+.introPatternLeft {
+  position: absolute;
+  bottom: -177px;
+  left: 0;
+  z-index: 1;
+  width: 180px;
+}
+
+.introPatternRight {
+  position: absolute;
+  bottom: -180px;
+  right: 0;
+  width: 130px;
+}

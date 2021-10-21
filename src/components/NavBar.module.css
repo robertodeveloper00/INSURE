@@ -1,0 +1,32 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.main-nav ul {
+  display: none;
+  list-style: none;
+}
+
+.main-nav__logo {
+  width: 8rem;
+}
+
+.hamb-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+@media (min-width: 40em) {
+  .main-nav ul {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .hamb-btn {
+    display: none;
+  }
+}
