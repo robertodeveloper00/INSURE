@@ -1,23 +1,23 @@
 # INSURE
 
-This is a challeneg I took from https://www.frontendmentor.io/.
+This is a challenge I took from https://www.frontendmentor.io/.
 
 The main idea is to form muscle memory around pixel-perfection, mobile-first and responsiveness.
 I'm using React just for practice and familiarity, working with Components, passing Props for Custom Components and working with CSS Modules.
 
-Inspired by Kevin Powell https://www.youtube.com/watch?v=bn-DQCifeQQ RESPOSNIVE DESIGN MADE EASY
+Inspired by Kevin Powell https://www.youtube.com/watch?v=bn-DQCifeQQ RESPONSIVE DESIGN MADE EASY
 
 ## The approach
 
 ### Step One
 
-* Lay out all of the HTML first, while using the web version of the design as a reference.
+* Lay all of the HTML first, while using the web version of the design as a reference.
 * In this specific case since I'm using React, that means also laying out all of the Components.
 
 ### Step Two
 
 * Start adding styles from the broad to the narrow. Keep it simple and general at first.
-* At this point we start adding the fonts, color palletes, custom properties, paddings, utility classes and so on.
+* At this point we start adding the fonts, color pallets, custom properties, paddings, utility classes and so on.
 
 ### Step Three
 
