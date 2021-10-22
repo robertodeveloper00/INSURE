@@ -1,3 +1,7 @@
+nav {
+  background: var(--color-neutral-light);
+}
+
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -8,6 +12,7 @@
 .main-nav ul {
   display: none;
   list-style: none;
+  color: var(--color-secondary-dark);
 }
 
 .main-nav__logo {
@@ -23,7 +28,9 @@
 @media (min-width: 40em) {
   .main-nav ul {
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1rem;
   }
 
   .hamb-btn {

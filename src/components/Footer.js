@@ -12,21 +12,25 @@ const socialLinks = [
     link: "https://www.facebook.com/",
     icon: fbIcon,
     name: "Facebook",
+    id: 1,
   },
   {
     link: "https://www.twitter.com/",
     icon: twIcon,
     name: "Twitter",
+    id: 2,
   },
   {
     link: "https://www.pinterest.com/",
     icon: pinIcon,
     name: "Pinterest",
+    id: 3,
   },
   {
     link: "https://www.instagram.com/",
     icon: igIcon,
     name: "Instagram",
+    id: 4,
   },
 ];
 
@@ -43,7 +47,7 @@ const Footer = () => {
         <ul>
           {socialLinks.map((socialLink) => {
             return (
-              <li>
+              <li key={socialLink.id}>
                 <a href={socialLink.link}>
                   <img src={socialLink.icon} alt="Insure's Face" />
                 </a>

@@ -31,7 +31,9 @@ const benefits = [
 
 const Features = () => {
   return (
-    <section className={`${classes.features} ${"container"}`}>
+    <section
+      className={`${classes.features} ${"container"} ${"mobile-container"}`}
+    >
       <span className={classes.line}></span>
       <h2>We're different</h2>
       <ul>
