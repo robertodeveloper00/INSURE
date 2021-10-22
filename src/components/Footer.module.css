@@ -19,7 +19,7 @@ footer {
 
 .footer-logo {
   margin-top: 1.8rem;
-  width: 30%;
+  width: 8rem;
   z-index: 20;
 }
 
@@ -55,4 +55,40 @@ footer {
 .footer-nav h4 {
   margin-bottom: 2rem;
   color: var(--color-secondary-dark);
+}
+
+@media (min-width: 600px) {
+  .footer-head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    padding-block: 2rem;
+  }
+
+  .footer-logo {
+    grid-column-start: 1 / 2;
+  }
+
+  .footer-head ul {
+    grid-column: 2 / -1;
+    margin-bottom: 0;
+    justify-self: end;
+    align-self: end;
+  }
+
+  .line {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    width: 100%;
+    align-self: start;
+  }
+
+  .footer-nav {
+    flex-direction: row;
+    align-items: flex-start;
+
+    gap: 15%;
+    font-size: 1rem;
+  }
 }

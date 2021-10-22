@@ -36,12 +36,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer>
-      <img
-        className={classes["footer-pattern"]}
-        src={footerPattern}
-        alt="Decorative Texture"
-      />
+    <footer className="container">
       <div className={classes["footer-head"]}>
         <img className={classes["footer-logo"]} src={Logo} alt="Insure Logo" />
         <ul>

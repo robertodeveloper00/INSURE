@@ -59,7 +59,7 @@ img {
 }
 
 section {
-  padding: 7rem 0;
+  padding: 3rem 0;
 }
 
 .container {
@@ -100,6 +100,11 @@ section {
 .global-btn.dark {
   border-color: var(--color-primary-dark);
   color: var(--color-primary-dark);
+}
+
+.btn__full-width {
+  padding: 1rem 6rem;
+  font-size: 1.2rem;
 }
 
 /* MEDIA QUERIES */

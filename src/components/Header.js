@@ -21,12 +21,8 @@ const Header = () => {
             src={HeroImgMob}
             alt="Happy family of four"
           />
-          <img
-            className={classes.introPatternLeftMob}
-            src={introPatternLeftMob}
-            alt="Decorative Texture"
-          />
         </div>
+
         <div className={`${classes.hero} ${"container"} ${"mobile-container"}`}>
           <span className={classes.line}></span>
           <h1>Humanizing your insurance.</h1>
@@ -37,11 +33,6 @@ const Header = () => {
           </p>
           <Button theme={"light"}>View Plans</Button>
           {/* <Button color={classes.var(--primary - color)}>View Plans</Button> */}
-          <img
-            className={classes.introPatternRightMob}
-            src={introPatternRightMob}
-            alt="Decorative Texture"
-          />
         </div>
       </div>
     </header>

@@ -27,13 +27,21 @@ header img {
   z-index: 20;
 }
 
-.header__img-container {
+.hero__texture-container {
   position: relative;
 }
 
 .introPatternLeftMob {
   position: absolute;
   bottom: -177px;
+  left: 0;
+  z-index: 1;
+  width: 180px;
+}
+
+.introPatternLeftDesk {
+  position: absolute;
+  top: 0;
   left: 0;
   z-index: 1;
   width: 180px;

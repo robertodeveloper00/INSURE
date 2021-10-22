@@ -2,6 +2,7 @@
   background-color: var(--color-primary);
   position: relative;
   color: var(--color-neutral-light);
+  width: 100%;
 }
 
 .cta div {
@@ -25,4 +26,7 @@
 
 .cta Button {
   font-size: 0.8rem;
+}
+
+@media (min-width: 600px) {
 }
